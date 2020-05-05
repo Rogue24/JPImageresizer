@@ -1,0 +1,6 @@
+framework module Pods_JPImageresizer_Tests {
+  umbrella header "Pods-JPImageresizer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

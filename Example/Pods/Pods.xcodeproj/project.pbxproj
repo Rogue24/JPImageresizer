@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BBB7EFB8EED908CCDFED59EE262080D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1C4F942D472841D05F3494004DBBF340 /* Pods-JPImageresizer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F812C9CDC849EE776200C0103D211 /* Pods-JPImageresizer_Tests-dummy.m */; };
+		2B43BA03AFF5224F6A1BF1D21B869F23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		34278B5EF9A99D5CC4A06D6999D52660 /* JPImageresizerConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6741ECE95E2189CCA9431F5CE325B5AC /* JPImageresizerConfigure.swift */; };
+		37B22C1041A25762A54479B4C8CC5CA1 /* Pods-JPImageresizer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C28A0FF2FB647D1B8A8CC5188F390B8 /* Pods-JPImageresizer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B8E8D4DF6B6C39545C95AF0B223A294 /* Pods-JPImageresizer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADCA208E15BD3144B1E3FBE533BCDBE /* Pods-JPImageresizer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A48A6A02216E995A8ED868478DDA89D /* Pods-JPImageresizer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BEC30929B2FCC9AAE82DEC62220B6E /* Pods-JPImageresizer_Example-dummy.m */; };
+		638BF733F9E750233E423A6FF5DF18B7 /* JPImageresizerFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703BF04BB35D3F38EE3D8F4DD72D073A /* JPImageresizerFrameView.swift */; };
+		70B6B032A7AAF31810093F6D6DFA0A62 /* JPImageresizerBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B4A888E302310B6FA1B5E070C470A9 /* JPImageresizerBlurView.swift */; };
+		869A5DD9BE5287B35FE2CFC983FB902A /* UIImage+JPImageresizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FEF99D1C807906B305CDF6BADFA417 /* UIImage+JPImageresizer.swift */; };
+		8B7515E35CD8742FEAE675035160BC4E /* JPImageresizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F857F71A8A488B855772F42E8AFC3 /* JPImageresizer-dummy.m */; };
+		9200F0F434D20A533BD955FDF4EB1D9F /* CALayer+JPImageresizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0666C63BF1FA48227CAEC66F0C9C602 /* CALayer+JPImageresizer.swift */; };
+		D3BD0460A565B54DA2E26786C8F9F6AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EED92EC5D84BC0953832132967C74327 /* JPImageresizer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 727F9452D562B61C4891978C652791DE /* JPImageresizer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F54AAC2DB348463F0239ADAD152D3F31 /* JPImageresizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378FE7FAB122CB077FED1D8EE6DE10B4 /* JPImageresizerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F274AEF1B82EED92C57948A228CEB38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E9E283060E2FFCA302B3A932460F11D;
+			remoteInfo = "Pods-JPImageresizer_Example";
+		};
+		D7FB3757602646225C9F05AD3A79946B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48DFC27EE79349B4BC2708E20B0E7A10;
+			remoteInfo = JPImageresizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009F7630CF24E53DF9EDF9B115CC65A0 /* JPImageresizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPImageresizer.release.xcconfig; sourceTree = "<group>"; };
+		20E63A4521581D6465CE5491B7395E03 /* Pods_JPImageresizer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPImageresizer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FEF99D1C807906B305CDF6BADFA417 /* UIImage+JPImageresizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+JPImageresizer.swift"; path = "JPImageresizer/Classes/UIImage+JPImageresizer.swift"; sourceTree = "<group>"; };
+		23BEC30929B2FCC9AAE82DEC62220B6E /* Pods-JPImageresizer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JPImageresizer_Example-dummy.m"; sourceTree = "<group>"; };
+		2C28A0FF2FB647D1B8A8CC5188F390B8 /* Pods-JPImageresizer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JPImageresizer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2DF5AB5C5F5F4CDB751C1437244CE587 /* Pods-JPImageresizer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JPImageresizer_Tests.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		378FE7FAB122CB077FED1D8EE6DE10B4 /* JPImageresizerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JPImageresizerView.swift; path = JPImageresizer/Classes/JPImageresizerView.swift; sourceTree = "<group>"; };
+		3942A8ED947B328DBA45D76B0C33B1D7 /* Pods-JPImageresizer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPImageresizer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B2F857F71A8A488B855772F42E8AFC3 /* JPImageresizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JPImageresizer-dummy.m"; sourceTree = "<group>"; };
+		3C4F812C9CDC849EE776200C0103D211 /* Pods-JPImageresizer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JPImageresizer_Tests-dummy.m"; sourceTree = "<group>"; };
+		4505E4B9043B14B4AD46318EAD983831 /* JPImageresizer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JPImageresizer-Info.plist"; sourceTree = "<group>"; };
+		4A13D7B0CD6BD48D31D2E4236D0471C9 /* Pods-JPImageresizer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JPImageresizer_Example.modulemap"; sourceTree = "<group>"; };
+		5BC5477DF59A42ACE3B03C87F6FA9E23 /* Pods-JPImageresizer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPImageresizer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5D250BE09A1037706DBCCBA96A22222E /* Pods-JPImageresizer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JPImageresizer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6741ECE95E2189CCA9431F5CE325B5AC /* JPImageresizerConfigure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JPImageresizerConfigure.swift; path = JPImageresizer/Classes/JPImageresizerConfigure.swift; sourceTree = "<group>"; };
+		6750BB23BF0A7CB1DBA6D61E106EA315 /* Pods-JPImageresizer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPImageresizer_Example-Info.plist"; sourceTree = "<group>"; };
+		6A54954F0396FD90FA51C49A05491DD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6C7C48FED83E93F669DCE89D8F6E6E2C /* Pods-JPImageresizer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPImageresizer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		703BF04BB35D3F38EE3D8F4DD72D073A /* JPImageresizerFrameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JPImageresizerFrameView.swift; path = JPImageresizer/Classes/JPImageresizerFrameView.swift; sourceTree = "<group>"; };
+		727F9452D562B61C4891978C652791DE /* JPImageresizer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPImageresizer-umbrella.h"; sourceTree = "<group>"; };
+		8ADCA208E15BD3144B1E3FBE533BCDBE /* Pods-JPImageresizer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JPImageresizer_Example-umbrella.h"; sourceTree = "<group>"; };
+		9813AFD7595FEC7DD5579F3698C0D259 /* JPImageresizer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JPImageresizer.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1433C2BDBE098ED30298CAFBA337D05 /* JPImageresizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JPImageresizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B7119522A1DE3469BEDC668DE4FE17 /* Pods-JPImageresizer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPImageresizer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C4C7ECB55FB54F5548A882D837912EA5 /* Pods-JPImageresizer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JPImageresizer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C87F1654908EF72407307597963F106F /* Pods-JPImageresizer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JPImageresizer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC3B0CEBFF37741E472E4EC122742396 /* Pods_JPImageresizer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPImageresizer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B4A888E302310B6FA1B5E070C470A9 /* JPImageresizerBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JPImageresizerBlurView.swift; path = JPImageresizer/Classes/JPImageresizerBlurView.swift; sourceTree = "<group>"; };
+		D98BAF85860E5BB060878EB98CD7A51F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DC14D0CC9F021B99984FA87CA26638F4 /* Pods-JPImageresizer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPImageresizer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0666C63BF1FA48227CAEC66F0C9C602 /* CALayer+JPImageresizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+JPImageresizer.swift"; path = "JPImageresizer/Classes/CALayer+JPImageresizer.swift"; sourceTree = "<group>"; };
+		EDC402F9342EC6D23D4E6272D28A110C /* JPImageresizer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPImageresizer-prefix.pch"; sourceTree = "<group>"; };
+		F99CEDB9986D7C86A3C55939D2C088F0 /* Pods-JPImageresizer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPImageresizer_Tests-Info.plist"; sourceTree = "<group>"; };
+		FBB4E7E491ACB1887336F402CD36066F /* JPImageresizer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JPImageresizer.modulemap; sourceTree = "<group>"; };
+		FDA84DA554B7B04E405DEC7009D253F3 /* Pods-JPImageresizer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPImageresizer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEA41594BB3973E5B574C2ED4F624429 /* JPImageresizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPImageresizer.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		867A8DF6E5C29FD43A0BC63D5C5A73DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B43BA03AFF5224F6A1BF1D21B869F23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02BC99A9D01CA3896D6AE19BE1D69B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBB7EFB8EED908CCDFED59EE262080D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FEEFD2F5B4104903E9DE1F65CAA2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BD0460A565B54DA2E26786C8F9F6AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB99CDB154017369072C340956BF4F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBB4E7E491ACB1887336F402CD36066F /* JPImageresizer.modulemap */,
+				3B2F857F71A8A488B855772F42E8AFC3 /* JPImageresizer-dummy.m */,
+				4505E4B9043B14B4AD46318EAD983831 /* JPImageresizer-Info.plist */,
+				EDC402F9342EC6D23D4E6272D28A110C /* JPImageresizer-prefix.pch */,
+				727F9452D562B61C4891978C652791DE /* JPImageresizer-umbrella.h */,
+				FEA41594BB3973E5B574C2ED4F624429 /* JPImageresizer.debug.xcconfig */,
+				009F7630CF24E53DF9EDF9B115CC65A0 /* JPImageresizer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JPImageresizer";
+			sourceTree = "<group>";
+		};
+		6F8FCD640FA1B1FAEEA3E670EA65B980 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E38F471634A12BAF333ED80FC0EF5377 /* Pods-JPImageresizer_Example */,
+				EE373D8B034FFE3E070BD6B79B4EC942 /* Pods-JPImageresizer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		725A615F111EE1F2716CF77B76CBCD79 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9F080580EE93E0BEFF20EE377ACA657 /* JPImageresizer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B9F080580EE93E0BEFF20EE377ACA657 /* JPImageresizer */ = {
+			isa = PBXGroup;
+			children = (
+				6741ECE95E2189CCA9431F5CE325B5AC /* JPImageresizerConfigure.swift */,
+				378FE7FAB122CB077FED1D8EE6DE10B4 /* JPImageresizerView.swift */,
+				703BF04BB35D3F38EE3D8F4DD72D073A /* JPImageresizerFrameView.swift */,
+				D8B4A888E302310B6FA1B5E070C470A9 /* JPImageresizerBlurView.swift */,
+				20FEF99D1C807906B305CDF6BADFA417 /* UIImage+JPImageresizer.swift */,
+				E0666C63BF1FA48227CAEC66F0C9C602 /* CALayer+JPImageresizer.swift */,
+				DF52E94FF790A9237D706907A6BE4D14 /* Pod */,
+				0BB99CDB154017369072C340956BF4F5 /* Support Files */,
+			);
+			name = JPImageresizer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				725A615F111EE1F2716CF77B76CBCD79 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FC958D473C86B2F308A12A341FF16BC9 /* Products */,
+				6F8FCD640FA1B1FAEEA3E670EA65B980 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF52E94FF790A9237D706907A6BE4D14 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9813AFD7595FEC7DD5579F3698C0D259 /* JPImageresizer.podspec */,
+				6A54954F0396FD90FA51C49A05491DD3 /* LICENSE */,
+				D98BAF85860E5BB060878EB98CD7A51F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E38F471634A12BAF333ED80FC0EF5377 /* Pods-JPImageresizer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4A13D7B0CD6BD48D31D2E4236D0471C9 /* Pods-JPImageresizer_Example.modulemap */,
+				C87F1654908EF72407307597963F106F /* Pods-JPImageresizer_Example-acknowledgements.markdown */,
+				FDA84DA554B7B04E405DEC7009D253F3 /* Pods-JPImageresizer_Example-acknowledgements.plist */,
+				23BEC30929B2FCC9AAE82DEC62220B6E /* Pods-JPImageresizer_Example-dummy.m */,
+				C4C7ECB55FB54F5548A882D837912EA5 /* Pods-JPImageresizer_Example-frameworks.sh */,
+				6750BB23BF0A7CB1DBA6D61E106EA315 /* Pods-JPImageresizer_Example-Info.plist */,
+				8ADCA208E15BD3144B1E3FBE533BCDBE /* Pods-JPImageresizer_Example-umbrella.h */,
+				6C7C48FED83E93F669DCE89D8F6E6E2C /* Pods-JPImageresizer_Example.debug.xcconfig */,
+				B5B7119522A1DE3469BEDC668DE4FE17 /* Pods-JPImageresizer_Example.release.xcconfig */,
+			);
+			name = "Pods-JPImageresizer_Example";
+			path = "Target Support Files/Pods-JPImageresizer_Example";
+			sourceTree = "<group>";
+		};
+		EE373D8B034FFE3E070BD6B79B4EC942 /* Pods-JPImageresizer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2DF5AB5C5F5F4CDB751C1437244CE587 /* Pods-JPImageresizer_Tests.modulemap */,
+				5D250BE09A1037706DBCCBA96A22222E /* Pods-JPImageresizer_Tests-acknowledgements.markdown */,
+				3942A8ED947B328DBA45D76B0C33B1D7 /* Pods-JPImageresizer_Tests-acknowledgements.plist */,
+				3C4F812C9CDC849EE776200C0103D211 /* Pods-JPImageresizer_Tests-dummy.m */,
+				F99CEDB9986D7C86A3C55939D2C088F0 /* Pods-JPImageresizer_Tests-Info.plist */,
+				2C28A0FF2FB647D1B8A8CC5188F390B8 /* Pods-JPImageresizer_Tests-umbrella.h */,
+				DC14D0CC9F021B99984FA87CA26638F4 /* Pods-JPImageresizer_Tests.debug.xcconfig */,
+				5BC5477DF59A42ACE3B03C87F6FA9E23 /* Pods-JPImageresizer_Tests.release.xcconfig */,
+			);
+			name = "Pods-JPImageresizer_Tests";
+			path = "Target Support Files/Pods-JPImageresizer_Tests";
+			sourceTree = "<group>";
+		};
+		FC958D473C86B2F308A12A341FF16BC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1433C2BDBE098ED30298CAFBA337D05 /* JPImageresizer.framework */,
+				CC3B0CEBFF37741E472E4EC122742396 /* Pods_JPImageresizer_Example.framework */,
+				20E63A4521581D6465CE5491B7395E03 /* Pods_JPImageresizer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F842544DEFEB8683BD88E749764145A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED92EC5D84BC0953832132967C74327 /* JPImageresizer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C82ECF4E9CB15E4380374ADB43E8D37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B22C1041A25762A54479B4C8CC5CA1 /* Pods-JPImageresizer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91550355D8820095CFC152EBEEDA3A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8E8D4DF6B6C39545C95AF0B223A294 /* Pods-JPImageresizer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14522304E7F6D2E53EC12E7DACECCE26 /* Pods-JPImageresizer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 980EF4F4CEEF75FDCAC742A17F8700D4 /* Build configuration list for PBXNativeTarget "Pods-JPImageresizer_Tests" */;
+			buildPhases = (
+				1C82ECF4E9CB15E4380374ADB43E8D37 /* Headers */,
+				865C6FF89450A85954188FFBCB5C1B25 /* Sources */,
+				867A8DF6E5C29FD43A0BC63D5C5A73DE /* Frameworks */,
+				E09ADEDABAF41A987F70F88ABF463406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2460F3332B7BA705371CC93041D8F5E /* PBXTargetDependency */,
+			);
+			name = "Pods-JPImageresizer_Tests";
+			productName = "Pods-JPImageresizer_Tests";
+			productReference = 20E63A4521581D6465CE5491B7395E03 /* Pods_JPImageresizer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E9E283060E2FFCA302B3A932460F11D /* Pods-JPImageresizer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C15E99775EEF51B039925D169B7B17 /* Build configuration list for PBXNativeTarget "Pods-JPImageresizer_Example" */;
+			buildPhases = (
+				B91550355D8820095CFC152EBEEDA3A4 /* Headers */,
+				3B9795848E613D19478B9E833590F740 /* Sources */,
+				B02BC99A9D01CA3896D6AE19BE1D69B1 /* Frameworks */,
+				8BDABCADFD0CAF67AA343098E47FE92E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC075167BBD74F07722850BC4ADA9C17 /* PBXTargetDependency */,
+			);
+			name = "Pods-JPImageresizer_Example";
+			productName = "Pods-JPImageresizer_Example";
+			productReference = CC3B0CEBFF37741E472E4EC122742396 /* Pods_JPImageresizer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48DFC27EE79349B4BC2708E20B0E7A10 /* JPImageresizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B233404FB9BD41781DD8D3851345E5 /* Build configuration list for PBXNativeTarget "JPImageresizer" */;
+			buildPhases = (
+				0F842544DEFEB8683BD88E749764145A /* Headers */,
+				C5FED8FB040BAA9C28077739F2C73727 /* Sources */,
+				ED6FEEFD2F5B4104903E9DE1F65CAA2F /* Frameworks */,
+				ED83A997A261AA86EAA915054D8A1FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPImageresizer;
+			productName = JPImageresizer;
+			productReference = B1433C2BDBE098ED30298CAFBA337D05 /* JPImageresizer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FC958D473C86B2F308A12A341FF16BC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48DFC27EE79349B4BC2708E20B0E7A10 /* JPImageresizer */,
+				3E9E283060E2FFCA302B3A932460F11D /* Pods-JPImageresizer_Example */,
+				14522304E7F6D2E53EC12E7DACECCE26 /* Pods-JPImageresizer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BDABCADFD0CAF67AA343098E47FE92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09ADEDABAF41A987F70F88ABF463406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED83A997A261AA86EAA915054D8A1FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B9795848E613D19478B9E833590F740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A48A6A02216E995A8ED868478DDA89D /* Pods-JPImageresizer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865C6FF89450A85954188FFBCB5C1B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4F942D472841D05F3494004DBBF340 /* Pods-JPImageresizer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FED8FB040BAA9C28077739F2C73727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9200F0F434D20A533BD955FDF4EB1D9F /* CALayer+JPImageresizer.swift in Sources */,
+				8B7515E35CD8742FEAE675035160BC4E /* JPImageresizer-dummy.m in Sources */,
+				70B6B032A7AAF31810093F6D6DFA0A62 /* JPImageresizerBlurView.swift in Sources */,
+				34278B5EF9A99D5CC4A06D6999D52660 /* JPImageresizerConfigure.swift in Sources */,
+				638BF733F9E750233E423A6FF5DF18B7 /* JPImageresizerFrameView.swift in Sources */,
+				F54AAC2DB348463F0239ADAD152D3F31 /* JPImageresizerView.swift in Sources */,
+				869A5DD9BE5287B35FE2CFC983FB902A /* UIImage+JPImageresizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2460F3332B7BA705371CC93041D8F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JPImageresizer_Example";
+			target = 3E9E283060E2FFCA302B3A932460F11D /* Pods-JPImageresizer_Example */;
+			targetProxy = 2F274AEF1B82EED92C57948A228CEB38 /* PBXContainerItemProxy */;
+		};
+		FC075167BBD74F07722850BC4ADA9C17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPImageresizer;
+			target = 48DFC27EE79349B4BC2708E20B0E7A10 /* JPImageresizer */;
+			targetProxy = D7FB3757602646225C9F05AD3A79946B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F71B2C4C676F220CEF0A4525B1595C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC5477DF59A42ACE3B03C87F6FA9E23 /* Pods-JPImageresizer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JPImageresizer_Tests/Pods-JPImageresizer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JPImageresizer_Tests/Pods-JPImageresizer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25917F245677B9146146830CB555B41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5B7119522A1DE3469BEDC668DE4FE17 /* Pods-JPImageresizer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JPImageresizer_Example/Pods-JPImageresizer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JPImageresizer_Example/Pods-JPImageresizer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39E761E5EFE74B8B6AE75B55E121EB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009F7630CF24E53DF9EDF9B115CC65A0 /* JPImageresizer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JPImageresizer/JPImageresizer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JPImageresizer/JPImageresizer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JPImageresizer/JPImageresizer.modulemap";
+				PRODUCT_MODULE_NAME = JPImageresizer;
+				PRODUCT_NAME = JPImageresizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A48055CAC34BE0D536211BE4D610146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA41594BB3973E5B574C2ED4F624429 /* JPImageresizer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JPImageresizer/JPImageresizer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JPImageresizer/JPImageresizer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JPImageresizer/JPImageresizer.modulemap";
+				PRODUCT_MODULE_NAME = JPImageresizer;
+				PRODUCT_NAME = JPImageresizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		972545AF66D77A6B04FEF3B0344E6502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC14D0CC9F021B99984FA87CA26638F4 /* Pods-JPImageresizer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JPImageresizer_Tests/Pods-JPImageresizer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JPImageresizer_Tests/Pods-JPImageresizer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DECE5BEE70BBA1A447E2DDCECF631376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C7C48FED83E93F669DCE89D8F6E6E2C /* Pods-JPImageresizer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JPImageresizer_Example/Pods-JPImageresizer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JPImageresizer_Example/Pods-JPImageresizer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13C15E99775EEF51B039925D169B7B17 /* Build configuration list for PBXNativeTarget "Pods-JPImageresizer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECE5BEE70BBA1A447E2DDCECF631376 /* Debug */,
+				25917F245677B9146146830CB555B41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B233404FB9BD41781DD8D3851345E5 /* Build configuration list for PBXNativeTarget "JPImageresizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A48055CAC34BE0D536211BE4D610146 /* Debug */,
+				39E761E5EFE74B8B6AE75B55E121EB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		980EF4F4CEEF75FDCAC742A17F8700D4 /* Build configuration list for PBXNativeTarget "Pods-JPImageresizer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972545AF66D77A6B04FEF3B0344E6502 /* Debug */,
+				0F71B2C4C676F220CEF0A4525B1595C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
