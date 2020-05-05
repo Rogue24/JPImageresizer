@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JPImageresizer_Example' do
+  pod 'JPImageresizer', :path => '../'
+
+  target 'JPImageresizer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
